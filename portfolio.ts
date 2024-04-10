@@ -12,68 +12,71 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Pranay Tauqeer",
+  name: "Pranay Bunari",
   title: "Hi all, I'm Pranay",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "I'm an experienced Software Engineer specializing in full-stack development, cloud solutions, and agile methodologies. Holds a Master of Science in Computer Science from the University at Buffalo. Proven track record in designing and deploying scalable, high-availability systems using a wide range of technologies including Java, C#, JavaScript, Kubernetes, and Docker.",
+  resumeLink: "https://drive.google.com/file/d/1tHRH-0O4WZ_69adUd2n2q6yXEbskShKR/view?usp=sharing",
 };
 
 export const openSource = {
-  githubUserName: "1Pranay100",
+  githubUserName: "LOGAN3119",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:Pranay.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1Pranay100/",
-  github: "https://github.com/1Pranay100",
-  instagram: "https://www.instagram.com/__Pranay100",
-  // facebook: 'https://www.facebook.com/1Pranay100',
-  // twitter: 'https://twitter.com/1Pranay100',
+  email: "mailto:pranaybunari@gmail.com",
+  linkedin: "https://www.linkedin.com/in/pbunari/",
+  github: "https://github.com/LOGAN3119",
+  instagram: "https://www.instagram.com/pranay_ammu",
+  // twitter: "https://twitter.com/pranayBunari",
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Developing microservices using Java & Spring Boot framework."),
+        emoji("⚡ Building responsive Single-Page-Apps (SPA) in React.js"),
+        emoji("⚡ Hands-on experience with Docker and Kubernetes."),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
-        {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
+          skillName: "Java",
+          iconifyTag: "logos:java",
         },
         {
           skillName: "Reactjs",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
+          skillName: "Spring Boot",
+          iconifyTag: "logos:spring",
+        },
+        {
+          skillName: "MySQL",
+          iconifyTag: "logos:mysql-icon",
+        },
+        {
+          skillName: "JavaScript",
+          iconifyTag: "logos:javascript",
+        },
+        {
+          skillName: "Django",
+          iconifyTag: "vscode-icons:file-type-django",
+        },
+        {
           skillName: "Nextjs",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "Azure",
+          iconifyTag: "logos:azure",
         },
         {
           skillName: "Github",
@@ -83,6 +86,14 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Docker",
           iconifyTag: "logos:docker-icon",
         },
+        {
+          skillName: "Kubernetes",
+          iconifyTag: "logos:kubernetes",
+        },
+        {
+          skillName: "Redis",
+          iconifyTag: "logos:redis",
+        },
       ],
     },
   ],
@@ -90,12 +101,12 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
-  },
-  {
     Stack: "Backend",
     progressPercentage: "90",
+  },
+  {
+    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    progressPercentage: "85", //Insert relative proficiency in percentage
   },
   {
     Stack: "Programming",
@@ -105,109 +116,109 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "University at Buffalo",
+    subHeader: "Master of Science in Computer Science",
+    duration: "Jan 2023 - May 2024",
     desc: "",
-    grade: "Grade A",
+    grade: "GPA - 3.83",
+    descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "Visvesvaraya National Institute of Tech.",
+    subHeader: "Bachelor of Technology in Computer Science",
+    duration: "Jul 2016 - May 2020",
+    desc: "",
+    grade: "GPA - 7.80",
     descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Software Engineer II",
+    company: "Philips Innovation",
+    companyLogo: "/img/icons/common/Philips.jpg",
+    date: "Aug 2020 - Dec 2022",
+    desc: "I've crafted diverse projects ranging from hybrid cloud solutions to microservice migrations, consistently delivering impactful results. Leveraging technologies like Kubernetes, Cloud Foundry, C#, and Java, I've optimized healthcare operations with real-time patient monitoring applications, streamlined screen configuration tools, enhanced authentication systems, and boosted data accessibility through innovative dashboard solutions, ensuring robust software solutions for complex healthcare challenges.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    role: "Software Development Intern",
+    company: "Simbo.ai",
+    companyLogo: "/img/icons/common/simbo.jpeg",
+    date: "May 2019 - Dec 2019",
+    desc: "During my tenure at Simbo.Ai, I developed a robust CNN model utilizing Keras and TensorFlow, achieving superior accuracy in transcribing speech into phonetics for diverse Indian languages and accents. Additionally, I architected a scalable Django web application tailored for structuring biomedical vocabulary, elevating user engagement through intuitive data visualization and customizable widgets. Collaborated with cross-functional teams, fostering a culture of innovation and driving collective project success.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
-  },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1Pranay100/developer-portfolio",
-    link: "https://developer-portfolio-1Pranay100.vercel.app/",
+    name: "Counterfeit Product Detection",
+    desc: "Implemented a blockchain solution utilizing Solidity, Node.js, Truffle, and Ganache to combat counterfeit products, integrating ERC-20, ERC-721, and ERC-1155 token standards. Ensured secure token transfer through MetaMask and hosted the system on Infura.",
+    github: "https://github.com/LOGAN3119/Blockchain",
+    link: "https://blockchain-topaz-theta.vercel.app/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
+    name: "Client Server Chat Application",
+    desc: "Designed a scalable chat application with centralized communication, optimizing data transmission latency and enhancing client information management for seamless data handling. Improved system stability through control message handling and message buffering mechanisms.",
     link: "https://gibeo.io/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Optical Character Recognition",
+    desc: "Implemented character recognition using PNG images from PDFs, focusing on monospaced fonts like OCR A Extended for efficiency. The approach aimed to eliminate noise and improve accuracy, leveraging advancements like Back Propagation for multi-layer network training.",
+    github: "https://github.com/PranayBunari/Optical-Character-Recognition-BackPropagation/tree/master",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
+    name: "Music Player",
+    desc: "Developed a music player using linked lists, offering users seamless functionalities to add songs, curate playlists, and navigate tracks efficiently. Implemented features enable smooth transition between tracks, including skipping to next or previous songs, while optimizing playlist management.",
     link: "https://hooliganculture.com/",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
+    name: "Prasad Thakar",
+    role: "Application Software Leader at Philips",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Pranay is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "Pranay is renowned for his diligence and dedication, he has excelled in developing high-quality software solutions, notably demonstrating expertise in REST endpoints development and new technologies like Spring framework and Redis. He's lauded as a reliable team player, actively seeking opportunities for learning and innovation, as evidenced by his contributions to community clubs and successful participation in cross-team collaboration projects. Pranay's commitment to personal and professional growth makes him a standout candidate for academic advancement and future success.",
+    linkedin_Id: "https://www.linkedin.com/in/thakarprasad/",
+    linkedin_Photo: "/img/icons/common/prasad.jpeg",
   },
   {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
+    name: "Baljit Singh",
+    role: "Founder & CEO at Simbo.ai",
     feedback:
-      "Pranay has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Pranay is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Pranay for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+      "As CEO, I witnessed pranay's proactive approach and remarkable teamwork, evident in his swift delivery of a biomedical web portal and innovative contributions to speech classification projects. Pranay's creativity, independence, and eagerness to learn garnered widespread recognition, positioning him as one of our top interns. I wholeheartedly endorse him, confident in his ability to excel professionally.",
+    linkedin_Id: "https://www.linkedin.com/in/blusingh/",
+    linkedin_Photo: "/img/icons/common/baljit.jpg",
   },
   {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
+    name: "Deepti Shrimankar",
+    role: "Professor at Natioanl Institute of Technology",
     feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+      "I am pleased to recommend Mr. Bunari Pranay, having mentored him during his undergraduate studies, I've witnessed his exceptional technical prowess and passion for Computer Vision. Pranay's adeptness in implementing SHapley Additive exPlanations (SHAP) on diverse algorithms and his articulate communication skills highlight his readiness for graduate studies. With his resilience, intellectual talent, and industry experience, Pranay is poised to make significant contributions wherever he works, leveraging his resilience, intellectual talent, and industry experience.",
+    linkedin_Id: "https://www.linkedin.com/in/deepti-shrimankar-4829352b/",
+    linkedin_Photo: "/img/icons/common/deepti.png",
   },
 ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Pranay Tauqeer",
+  title: "Pranay Bunari",
   description: greetings.description,
-  author: "Pranay Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1Pranay100.vercel.app",
+  author: "Pranay Bunari",
+  // image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  url: "https://developer-portfolio-pranay.vercel.app",
   keywords: [
     "Pranay",
-    "Pranay Tauqeer",
-    "@1Pranay100",
-    "1Pranay100",
+    "Pranay Bunari",
+    "@LOGAN3119",
+    "LOGAN3119",
     "Portfolio",
     "Pranay Portfolio ",
-    "Pranay Tauqeer Portfolio",
+    "Pranay Bunari Portfolio",
   ],
 };

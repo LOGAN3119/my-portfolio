@@ -86,4 +86,6 @@ export type FeedbackType = {
   name: string;
   role: string;
   feedback: string;
+  linkedin_Id: string;
+  linkedin_Photo: string;
 };
