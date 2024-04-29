@@ -190,7 +190,7 @@ export const feedbacks: FeedbackType[] = [
     name: "Prasad Thakar",
     role: "Application Software Leader at Philips",
     feedback:
-      "Pranay is renowned for his diligence and dedication, he has excelled in developing high-quality software solutions, notably demonstrating expertise in REST endpoints development and new technologies like Spring framework and Redis. He's lauded as a reliable team player, actively seeking opportunities for learning and innovation, as evidenced by his contributions to community clubs and successful participation in cross-team collaboration projects. Pranay's commitment to personal and professional growth makes him a standout candidate for academic advancement and future success.",
+      "Pranay is an accomplished software developer known for delivering high-quality solutions, I have seen him driving innovation and collaboration for continuous professional advancement.",
     linkedin_Id: "https://www.linkedin.com/in/thakarprasad/",
     linkedin_Photo: "/img/icons/common/prasad.jpeg",
   },
@@ -198,15 +198,15 @@ export const feedbacks: FeedbackType[] = [
     name: "Baljit Singh",
     role: "Founder & CEO at Simbo.ai",
     feedback:
-      "As CEO, I witnessed pranay's proactive approach and remarkable teamwork, evident in his swift delivery of a biomedical web portal and innovative contributions to speech classification projects. Pranay's creativity, independence, and eagerness to learn garnered widespread recognition, positioning him as one of our top interns. I wholeheartedly endorse him, confident in his ability to excel professionally.",
+      "Pranay's proactive leadership, remarkable teamwork, and innovative contributions make him a standout professional poised for success.",
     linkedin_Id: "https://www.linkedin.com/in/blusingh/",
     linkedin_Photo: "/img/icons/common/baljit.jpg",
   },
   {
     name: "Deepti Shrimankar",
-    role: "Professor at Natioanl Institute of Technology",
+    role: "Professor at NIT Nagpur",
     feedback:
-      "I am pleased to recommend Mr. Bunari Pranay, having mentored him during his undergraduate studies, I've witnessed his exceptional technical prowess and passion for Computer Vision. Pranay's adeptness in implementing SHapley Additive exPlanations (SHAP) on diverse algorithms and his articulate communication skills highlight his readiness for graduate studies. With his resilience, intellectual talent, and industry experience, Pranay is poised to make significant contributions wherever he works, leveraging his resilience, intellectual talent, and industry experience.",
+      "Mr. Bunari Pranay's exceptional technical prowess in Computer Vision, coupled with articulate communication skills and industry experience, underscores his readiness for his future professional success.",
     linkedin_Id: "https://www.linkedin.com/in/deepti-shrimankar-4829352b/",
     linkedin_Photo: "/img/icons/common/deepti.png",
   },

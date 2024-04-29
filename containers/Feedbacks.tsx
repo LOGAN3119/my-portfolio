@@ -23,7 +23,7 @@ const Feedbacks = () => {
             <Row className="g-3">
               {feedbacks.map((data, i) => {
                 return (
-                  <Col key={i} lg={6}>
+                  <Col key={i} lg="rec">
                     <FeedbackCard {...data} />
                   </Col>
                 );

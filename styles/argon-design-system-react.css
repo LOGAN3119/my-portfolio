@@ -1223,6 +1223,9 @@ pre code {
 		flex: 0 0 41.66667%;
 		max-width: 41.66667%;
 	}
+	.col-lg-rec {
+		flex: 1;
+	}
 	.col-lg-6 {
 		flex: 0 0 50%;
 		max-width: 50%;
