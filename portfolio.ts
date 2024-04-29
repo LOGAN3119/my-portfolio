@@ -135,6 +135,13 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: "Engineer Co-Op",
+    company: "Youro",
+    companyLogo: "/img/icons/common/youro.png",
+    date: "Jan 2024 - Present",
+    desc: "Youro redefines urological healthcare, facilitating virtual consultations and streamlined patient-doctor interactions. With intuitive booking, detailed care plans, and real-time chats, it empowers patients and optimizes consultations for doctors. Tailored questionnaires ensure personalized care, revolutionizing the landscape of urological healthcare interactions.",
+  },
+  {
     role: "Software Engineer II",
     company: "Philips Innovation",
     companyLogo: "/img/icons/common/Philips.jpg",
@@ -162,19 +169,19 @@ export const projects: ProjectType[] = [
     link: "https://blockchain-topaz-theta.vercel.app/",
   },
   {
-    name: "Client Server Chat Application",
+    name: "Medchat Connect",
     desc: "Designed a scalable chat application with centralized communication, optimizing data transmission latency and enhancing client information management for seamless data handling. Improved system stability through control message handling and message buffering mechanisms.",
-    link: "https://gibeo.io/",
+    github: "https://github.com/sainath0523/youro_backend/tree/PranayWebSock",
   },
   {
-    name: "Optical Character Recognition",
-    desc: "Implemented character recognition using PNG images from PDFs, focusing on monospaced fonts like OCR A Extended for efficiency. The approach aimed to eliminate noise and improve accuracy, leveraging advancements like Back Propagation for multi-layer network training.",
-    github: "https://github.com/PranayBunari/Optical-Character-Recognition-BackPropagation/tree/master",
+    name: "Environment Monitoring",
+    desc: "This project involves simulating and monitoring healthcare equipment's environmental conditions. It comprises a sender for data simulation and a receiver for analysis, issuing alerts for temperature and humidity variations. Data is transmitted every 5 minutes, with the receiver programmed to trigger alerts after 30 minutes of no data reception.",
+    github: "https://github.com/PranayBunari/EnvironmentalMonitor",
   },
   {
     name: "Music Player",
     desc: "Developed a music player using linked lists, offering users seamless functionalities to add songs, curate playlists, and navigate tracks efficiently. Implemented features enable smooth transition between tracks, including skipping to next or previous songs, while optimizing playlist management.",
-    link: "https://hooliganculture.com/",
+    github: "https://github.com/LOGAN3119/Music-Player-",
   },
 ];
 

@@ -32,14 +32,14 @@ const FeedbackCard = ({ name, role, feedback, linkedin_Id, linkedin_Photo }: Fee
             {linkedin_Id ? (
               <Button
                 className="btn-icon"
-                color="github"
+                color="twitter"
                 href={linkedin_Id}
                 target="_blank"
                 rel="noopener"
-                aria-label="Github"
+                aria-label="Linkedin"
               >
                 <span className="btn-inner--icon">
-                  <i className="fa fa-github" />
+                  <i className="fa fa-linkedin" />
                 </span>
               </Button>
             ) : null}
