@@ -29,7 +29,7 @@ export const socialLinks: SocialLinksType = {
   email: "mailto:pranaybunari@gmail.com",
   linkedin: "https://www.linkedin.com/in/pbunari/",
   github: "https://github.com/LOGAN3119",
-  instagram: "https://www.instagram.com/pranay_ammu",
+  leetcode: "https://leetcode.com/u/pranaybunari/",
   // twitter: "https://twitter.com/pranayBunari",
 };
 
@@ -99,45 +99,11 @@ export const skillsSection: SkillsSectionType = {
   ],
 };
 
-export const SkillBars: SkillBarsType[] = [
-  {
-    Stack: "Backend",
-    progressPercentage: "90",
-  },
-  {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
-  },
-  {
-    Stack: "Programming",
-    progressPercentage: "95",
-  },
-];
-
-export const educationInfo: EducationType[] = [
-  {
-    schoolName: "University at Buffalo",
-    subHeader: "Master of Science in Computer Science",
-    duration: "Jan 2023 - May 2024",
-    desc: "",
-    grade: "GPA - 3.83",
-    descBullets: [], // Array of Strings
-  },
-  {
-    schoolName: "Visvesvaraya National Institute of Tech.",
-    subHeader: "Bachelor of Technology in Computer Science",
-    duration: "Jul 2016 - May 2020",
-    desc: "",
-    grade: "GPA - 7.80",
-    descBullets: [], // Array of Strings
-  },
-];
-
 export const experience: ExperienceType[] = [
   {
     role: "Engineer Co-Op",
     company: "Youro",
-    companyLogo: "/img/icons/common/youro.png",
+    companyLogo: "/img/icons/common/youroLogo.png",
     date: "Jan 2024 - Present",
     desc: "Youro redefines urological healthcare, facilitating virtual consultations and streamlined patient-doctor interactions. With intuitive booking, detailed care plans, and real-time chats, it empowers patients and optimizes consultations for doctors. Tailored questionnaires ensure personalized care, revolutionizing the landscape of urological healthcare interactions.",
   },
@@ -209,6 +175,40 @@ export const feedbacks: FeedbackType[] = [
       "Mr. Bunari Pranay's exceptional technical prowess in Computer Vision, coupled with articulate communication skills and industry experience, underscores his readiness for his future professional success.",
     linkedin_Id: "https://www.linkedin.com/in/deepti-shrimankar-4829352b/",
     linkedin_Photo: "/img/icons/common/deepti.png",
+  },
+];
+
+export const educationInfo: EducationType[] = [
+  {
+    schoolName: "University at Buffalo",
+    subHeader: "Master of Science in Computer Science",
+    duration: "Jan 2023 - May 2024",
+    desc: "",
+    grade: "GPA - 3.83",
+    descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "Visvesvaraya National Institute of Tech.",
+    subHeader: "Bachelor of Technology in Computer Science",
+    duration: "Jul 2016 - May 2020",
+    desc: "",
+    grade: "GPA - 7.80",
+    descBullets: [], // Array of Strings
+  },
+];
+
+export const SkillBars: SkillBarsType[] = [
+  {
+    Stack: "Backend",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    progressPercentage: "85", //Insert relative proficiency in percentage
+  },
+  {
+    Stack: "Programming",
+    progressPercentage: "95",
   },
 ];
 

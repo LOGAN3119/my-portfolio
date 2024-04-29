@@ -65,6 +65,20 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
+                {socialLinks.leetcode && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener noreferrer"
+                      aria-label="Leetcode"
+                      className="nav-link-icon"
+                      href={socialLinks.leetcode}
+                      target="_blank"
+                    >
+                      <i className="fa fa-code" /> {/* Icon class for LeetCode */}
+                      <span className="nav-link-inner--text d-lg-none ml-2">LeetCode</span>
+                    </NavLink>
+                  </NavItem>
+                )}
                 {socialLinks.instagram && (
                   <NavItem>
                     <NavLink
@@ -107,6 +121,7 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
+
                 {socialLinks.twitter && (
                   <NavItem>
                     <NavLink
