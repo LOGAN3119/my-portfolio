@@ -3,6 +3,8 @@ import { greetings, socialLinks } from "../portfolio";
 import Headroom from "headroom.js";
 import { UncontrolledCollapse, NavbarBrand, Navbar, NavItem, NavLink, Nav, Container, Row, Col } from "reactstrap";
 
+import LeetcodeIcon from "../public/icons/LeetcodeIcon";
+
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState("");
   const onExiting = () => setCollapseClasses("collapsing-out");
@@ -70,11 +72,11 @@ const Navigation = () => {
                     <NavLink
                       rel="noopener noreferrer"
                       aria-label="Leetcode"
-                      className="nav-link-icon"
+                      className="nav-link-icon leet-icon"
                       href={socialLinks.leetcode}
                       target="_blank"
                     >
-                      <i className="fa fa-code" /> {/* Icon class for LeetCode */}
+                      <LeetcodeIcon />
                       <span className="nav-link-inner--text d-lg-none ml-2">LeetCode</span>
                     </NavLink>
                   </NavItem>

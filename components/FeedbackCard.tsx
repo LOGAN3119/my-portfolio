@@ -5,8 +5,9 @@ import { FeedbackType } from "../types/sections";
 
 const FeedbackCard = ({ name, role, feedback, linkedin_Id, linkedin_Photo }: FeedbackType) => {
   return (
-    <Card className="shadow-lg--hover shadow my-4 h-100">
+    <Card className="shadow-lg--hover shadow my-4 h-100 feedback-card">
       <CardBody style={{ display: "flex", flexDirection: "column" }}>
+        <i className="fa fa-quote-left" aria-hidden="true"></i>
         <p className="description mt-2" style={{ flex: 1 }}>
           {feedback}
         </p>
@@ -39,14 +40,11 @@ const FeedbackCard = ({ name, role, feedback, linkedin_Id, linkedin_Photo }: Fee
               src={linkedin_Photo}
               style={{
                 objectFit: "cover",
-                // position: "absolute",
-                // top: "1rem", // Adjust the top position as needed
-                // right: "1rem", // Adjust the right position as needed
-                width: "2.5rem", // Adjust the width as needed
-                height: "2.5rem", // Adjust the height as needed
+                width: "2.5rem",
+                height: "2.5rem",
                 padding: "0px",
                 borderRadius: "50%",
-                boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", // Optional: Add shadow for better visibility
+                boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
               }}
               alt={linkedin_Photo}
             />

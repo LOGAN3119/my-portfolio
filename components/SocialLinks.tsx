@@ -2,6 +2,8 @@ import React from "react";
 import { Button } from "reactstrap";
 import { socialLinks } from "../portfolio";
 
+import LeetcodeIcon from "../public/icons/LeetcodeIcon";
+
 const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
@@ -63,16 +65,14 @@ const SocialLinks = () => {
       )}
       {socialLinks.leetcode && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="warning"
+          className="btn-icon-only rounded-circle ml-1 leet-icon"
+          style={{ backgroundColor: "rgb(40, 40, 40)", borderColor: "rgb(40, 40, 40)" }}
           href={socialLinks.leetcode}
           target="_blank"
           rel="noopener"
           aria-label="LeetCode"
         >
-          <span className="btn-inner--icon">
-            <i className="fa fa-code" />
-          </span>
+          <LeetcodeIcon />
         </Button>
       )}
       {socialLinks.facebook && (

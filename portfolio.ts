@@ -105,21 +105,21 @@ export const experience: ExperienceType[] = [
     company: "Youro",
     companyLogo: "/img/icons/common/youroLogo.png",
     date: "Jan 2024 - Present",
-    desc: "Youro redefines urological healthcare, facilitating virtual consultations and streamlined patient-doctor interactions. With intuitive booking, detailed care plans, and real-time chats, it empowers patients and optimizes consultations for doctors. Tailored questionnaires ensure personalized care, revolutionizing the landscape of urological healthcare interactions.",
+    desc: "Engineered a dynamic form management system to enhance diagnosis and symptom scoring accuracy by adding tailored follow-up questions based on patient responses, resulting in improved patient satisfaction and reduced symptom misinterpretations. Additionally, developed a real-time chat functionality using web sockets to facilitate seamless communication between doctors and patients, incorporating features such as message delivery and read receipts.",
   },
   {
     role: "Software Engineer II",
     company: "Philips Innovation",
     companyLogo: "/img/icons/common/Philips.jpg",
     date: "Aug 2020 - Dec 2022",
-    desc: "I've crafted diverse projects ranging from hybrid cloud solutions to microservice migrations, consistently delivering impactful results. Leveraging technologies like Kubernetes, Cloud Foundry, C#, and Java, I've optimized healthcare operations with real-time patient monitoring applications, streamlined screen configuration tools, enhanced authentication systems, and boosted data accessibility through innovative dashboard solutions, ensuring robust software solutions for complex healthcare challenges.",
+    desc: "I've crafted diverse projects ranging from hybrid cloud solutions to microservice migrations, consistently delivering impactful results. Leveraging technologies like Kubernetes, Cloud Foundry, and Java, I've optimized healthcare operations with real-time patient monitoring applications, screen configuration tools, enhanced authentication systems, and boosted data accessibility through innovative dashboard solutions for complex healthcare challenges.",
   },
   {
     role: "Software Development Intern",
     company: "Simbo.ai",
     companyLogo: "/img/icons/common/simbo.jpeg",
     date: "May 2019 - Dec 2019",
-    desc: "During my tenure at Simbo.Ai, I developed a robust CNN model utilizing Keras and TensorFlow, achieving superior accuracy in transcribing speech into phonetics for diverse Indian languages and accents. Additionally, I architected a scalable Django web application tailored for structuring biomedical vocabulary, elevating user engagement through intuitive data visualization and customizable widgets. Collaborated with cross-functional teams, fostering a culture of innovation and driving collective project success.",
+    desc: "I developed a robust CNN model using Keras and TensorFlow, to transcribe speech into phonetics for diverse Indian languages and accents. Moreover, I architected a scalable Django web application tailored for structuring biomedical vocabulary, elevating user engagement through intuitive data visualization and customizable widgets. Collaborated with cross-functional teams, fostering a culture of innovation and driving collective project success.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -203,8 +203,8 @@ export const SkillBars: SkillBarsType[] = [
     progressPercentage: "90",
   },
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "Frontend/Design",
+    progressPercentage: "85",
   },
   {
     Stack: "Programming",
