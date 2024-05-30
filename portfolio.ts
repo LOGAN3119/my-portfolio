@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Pranay",
   description:
     "I'm an experienced Software Engineer specializing in full-stack development, cloud solutions, and agile methodologies. Holds a Master of Science in Computer Science from the University at Buffalo. Proven track record in designing and deploying scalable, high-availability systems using a wide range of technologies including Java, C#, JavaScript, Kubernetes, and Docker.",
-  resumeLink: "https://drive.google.com/file/d/1H0agFqhhn636kiLOvFlCNrEA5xDCqMJK/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1KaEyOKr2l15MBtKRaAzsUFCwj1t7A8--/view?usp=sharing",
 };
 
 export const openSource = {
